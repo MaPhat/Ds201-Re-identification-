@@ -81,14 +81,3 @@ class Kalman_Filter:
         new_covariance = np.dot((np.ones_like(kalman_gain) - kalman_gain),projected_cov)
 
         return new_mean, new_covariance
-
-
-if __name__ == "__main__":
-    kf = Kalman_Filter()
-
-    init = (4,1,10,3)
-
-    mean, covariance = kf.init(init)
-    mean_pred, cov_pred = kf.predict(mean, covariance)
-    mean_update, cov_update = kf.update((6,7,10,4),mean_pred, cov_pred)
-    print(mean, mean_pred, mean_update)
