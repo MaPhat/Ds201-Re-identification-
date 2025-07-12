@@ -3,7 +3,7 @@
 A multi-camera vehicle detection and re-identification system built on YOLO, DeepSORT. In order to implement this system in real-time, we use Kafka for sending and receiving data then use Pyspark to run the multi-camera Re-id system.
 
 This is our pipeline
-![Pipeline](images/pipeline_bigdata.png)
+![Pipeline](image/pipeline_bigdata.png)
 
 ## Requirements
 
