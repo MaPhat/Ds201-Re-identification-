@@ -15,22 +15,30 @@ This is our pipeline
 - Scalar 3.9.1
 
 ## Running the System
+Clone the repository
 ```bash
 git clone https://github.com/MaPhat/Ds201-Re-identification-.git
+cd Ds201-Re-identification
+```
 
-For running only the system in your local machine
+To run only the system in your local machine
 ```bash
 python main.py
+```
 
 For running only the system in streaming data
+
+Start Kafka server
 ```bash
-# Start Kafka server
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
 bin\windows\kafka-server-start.bat config\server.properties
+```
 
-# Start Spark Streaming App
+Start Spark Streaming App
+```bash
 python producer_cam1.py
 python producer_cam2.py
 
 python app_pyspark.py
+```
