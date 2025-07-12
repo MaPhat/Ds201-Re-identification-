@@ -1,4 +1,36 @@
 # Vehicle Re-Identification System in Vietnam using YOLO, DeepSORT, and Spark Streaming
 
-A multi-camera vehicle detection and re-identification system built on YOLOv8, DeepSORT. In order to implement this system in real-time, we use Kafka for sending and receiving data then use Pyspark to run the multi-camera Re-id system.
+A multi-camera vehicle detection and re-identification system built on YOLO, DeepSORT. In order to implement this system in real-time, we use Kafka for sending and receiving data then use Pyspark to run the multi-camera Re-id system.
 
+This is our pipeline
+![Pipeline](images/pipeline_bigdata.png)
+
+## Requirements
+
+- Python 3.10+
+- CUDA 12.6
+- PyTorch 2.7.1
+- Apache Spark 3.5.6
+- Kafka 2.12
+- Scalar 3.9.1
+
+## Running the System
+```bash
+git clone https://github.com/MaPhat/Ds201-Re-identification-.git
+
+For running only the system in your local machine
+```bash
+python main.py
+
+For running only the system in streaming data
+```bash
+# Start Kafka server
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+bin\windows\kafka-server-start.bat config\server.properties
+
+# Start Spark Streaming App
+python producer_cam1.py
+python producer_cam2.py
+
+python app_pyspark.py
