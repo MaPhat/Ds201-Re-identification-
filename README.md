@@ -46,5 +46,7 @@ Please refer to Section 4.3: Experimental Results in our report for more details
 
 ## Authors
 Phát Mã Kim, Nguyên Đặng Chí, Mộng Thúy Đường Thị
+
 Data Science Student @ UIT - VNUHCM
+
 Contact: {22521071,22520963,22521454}@gm.uit.edu.vn
