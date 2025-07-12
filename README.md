@@ -21,12 +21,12 @@ git clone https://github.com/MaPhat/Ds201-Re-identification-.git
 cd Ds201-Re-identification
 ```
 
-To run only the system in your local machine
+# To run only the system in your local machine
 ```bash
 python main.py
 ```
 
-For running only the system in streaming data
+# For running only the system in streaming data
 
 Start Kafka server
 ```bash
