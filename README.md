@@ -44,6 +44,10 @@ python app_pyspark.py
 ```
 Please refer to Section 4.3: Experimental Results in our report for more details about our findings.
 
+## Demo
+Please access to this link to watch our demo.
+https://drive.google.com/drive/folders/1ASVPloYXNK2_i8cMARJ3Wk-EInAWTGqK?usp=sharing
+
 ## Authors
 Phát Mã Kim, Nguyên Đặng Chí, Mộng Thúy Đường Thị
 
