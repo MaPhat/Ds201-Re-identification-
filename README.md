@@ -54,6 +54,7 @@ https://drive.google.com/drive/folders/1tcE5xPfBhn-3xovs_35uCuaYEqKPodH_?usp=sha
 
 ## Authors
 Phat Ma Kim, Nguyen Dang Chi, Mong Thuy Duong Thi
+
 Data Science Students, University of Information Technology – VNUHCM
 
 Contact: {22521071, 22520963, 22521454}@gm.uit.edu.vn
