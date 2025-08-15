@@ -48,9 +48,17 @@ Please refer to Section 4.3: Experimental Results in our report for more details
 Please access to this link to watch our demo.
 https://drive.google.com/drive/folders/1ASVPloYXNK2_i8cMARJ3Wk-EInAWTGqK?usp=sharing
 
+## Dataset
+Please access to this link to view or reuse our dataset (Note: PLEASE NOT FOR COMMERCIAL PURPOSE)
+https://drive.google.com/drive/folders/1tcE5xPfBhn-3xovs_35uCuaYEqKPodH_?usp=sharing
+
 ## Authors
-Phát Mã Kim, Nguyên Đặng Chí, Mộng Thúy Đường Thị
+Phat Ma Kim, Nguyen Dang Chi, Mong Thuy Duong Thi
+Data Science Students, University of Information Technology – VNUHCM
 
-Data Science Student @ UIT - VNUHCM
+Contact: {22521071, 22520963, 22521454}@gm.uit.edu.vn
 
-Contact: {22521071,22520963,22521454}@gm.uit.edu.vn
+## Acknowledgements
+We would like to express our sincere gratitude to Do Trong Hop (hopdt@uit.edu.vn) and Hoang Anh Nguyen Thi (anhnth@uit.edu.vn) for their valuable guidance and support throughout this work.
+
+
